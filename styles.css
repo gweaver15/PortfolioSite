@@ -4,6 +4,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  font-size: 100;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -12,20 +16,21 @@ body {
   }
 
 .project {
+    text-align: center;
     position: relative;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 350px;
     border: 2px solid black;
     border-radius: 15px;
+    gap: 100px;
   }
 
   .section-header {
     font-size: 100;
   }
 
-  .project p {
-    font-size: 12;
-    text-align: center;
+  .project-header {
+    font-size: xx-large;
   }
 
   .icon {
