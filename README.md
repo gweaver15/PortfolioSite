@@ -8,3 +8,5 @@ Feel free to reach out with any suggestions or feedback!
 💻 https://garrettweaver.vercel.app/
 
 📫 Email: gdweaver15@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/garrett-weaver/
