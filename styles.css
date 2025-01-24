@@ -81,3 +81,7 @@ body {
 #kmeans {
   border: 1px solid black;
 }
+
+section {
+  margin-bottom: 100px;
+}
