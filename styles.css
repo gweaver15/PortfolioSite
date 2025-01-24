@@ -6,21 +6,26 @@ body {
   margin-top: 100px;
 }
 
+.container p {
+  max-width: 350px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
+    margin-bottom: 150px;
+    justify-content: space-between;
+    align-items: center;
   }
 
 .project {
     text-align: center;
     position: relative;
     width: 250px;
-    height: 350px;
-    border: 2px solid black;
-    border-radius: 15px;
-    gap: 100px;
+    height: 200px;
   }
 
   .section-header {
@@ -28,7 +33,7 @@ body {
   }
 
   .project-header {
-    font-size: xx-large;
+    font-size: 48px;
   }
 
   .icon {
@@ -55,6 +60,24 @@ body {
 #contact {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 35px;
   
+}
+
+.vertical-line {
+  margin-top: 20px;
+  border-left: 2px solid rgb(53, 53, 53);
+  height: 35px; 
+}
+
+.fading-line {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, transparent, black, transparent);
+  border: none;
+  margin-top: 35px;
+}
+
+#kmeans {
+  border: 1px solid black;
 }
