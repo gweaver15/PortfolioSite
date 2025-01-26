@@ -5,10 +5,28 @@
         <link rel="stylesheet" href = "styles.css">
     </head>
     <body>
-        <h1 class="section-header">About Me</h1>
-        <hr/>
         <section id = "header">
-
+            <div id = "header-box">
+                <img
+                id = "headshot"
+                src="assets/headshot.png"
+                />
+                <div id="header-text">
+                    <h1 style="font-size: 34px;">Hi!</h1>
+                    <p>
+                        My name is Garrett Weaver and I am a senior Computer Information Science student
+                        at the University of Dayton.
+                    </p>
+                    <p>
+                        I have full-stack experience developing front-end, back-end, and database components 
+                        of projects. I also have significant cloud experience, specifically with AWS.
+                    </p>
+                    <p>
+                        As a former humanities student, I also bring excellent writing, researching, and 
+                        communication skills to any role.
+                    </p>
+                </div>
+            </div>
         </section>
         <h1 class="section-header">Projects</h1>
         <hr/>
@@ -98,12 +116,20 @@
         <section id = "certs-section">
             <div id = "certs">
                 <!-- AWS Certified Cloud Practioner -->
-                <div id = "AWS">
                     <h1>Earned:</h1>
-                    <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/b85f8698f4bb41fe811cdb78e10f9176">AWS Certified Cloud Practitioner (CLF-C02)</a>
+                    <div class="cert-container">
+                        <img
+                        src="assets/aws.png"
+                        />
+                        <a class="cert-text" href="https://cp.certmetrics.com/amazon/en/public/verify/credential/b85f8698f4bb41fe811cdb78e10f9176">AWS Certified Cloud Practitioner (CLF-C02)</a>
+                    </div>
                     <h1>Learning:</h1>
-                    <p>Azure Developer Associate (AZ-204)</p>
-                </div>
+                    <div class="cert-container">
+                        <img
+                        src="assets/azure.png"
+                        />
+                        <p class="cert-text">Azure Developer Associate (AZ-204)</p>
+                    </div>
             </div>
         </section>
         <h1 class="section-header">Contact</h1>
