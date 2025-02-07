@@ -2,6 +2,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  padding-left: 200px;
+  padding-right: 200px;
   margin-bottom: 100px;
   margin-top: 50px;
 }
