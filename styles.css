@@ -6,6 +6,7 @@ body {
   padding-right: 200px;
   margin-bottom: 100px;
   margin-top: 50px;
+  background: linear-gradient(0deg, #b8b9d2, #bdbed8, #c1c3df, #c6c7e5, #caccec, #cfd1f2, #d3d6f8, #d8dbff);
 }
 
 .container p {
@@ -42,42 +43,42 @@ font-size: 28px;
 }
 
 .project {
-    text-align: center;
-    position: relative;
-    width: 275px;
-    height: 200px;
-    border: 3px solid black;
-    border-radius: 25px;
-    margin-right: 100px;
+  text-align: center;
+  position: relative;
+  width: 275px;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin-right: 100px;
   }
 
-  .section-header {
-    font-size: 56px;
-  }
+.section-header {
+  font-size: 56px;
+}
 
-  .project-header {
-    font-size: 48px;
-  }
+.project-header {
+  font-size: 48px;
+}
 
-  .icon {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.icon {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20%;
+   max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  .hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 #contact {
