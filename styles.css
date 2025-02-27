@@ -6,7 +6,7 @@ body {
   padding-right: 200px;
   margin-bottom: 100px;
   margin-top: 50px;
-  background: linear-gradient(0deg, #b8b9d2, #bdbed8, #c1c3df, #c6c7e5, #caccec, #cfd1f2, #d3d6f8, #d8dbff);
+  background: linear-gradient(#b8b9d2, #d8dbff);
 }
 
 .container p {
@@ -66,19 +66,14 @@ font-size: 28px;
   left: 50%;
   transform: translateX(-50%);
   width: 20%;
-   max-width: 300px;
+  max-width: 300px;
   height: auto;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+hr {
+  border: 1px solid black;
 }
 
 #contact {
