@@ -9,6 +9,27 @@ body {
   background: linear-gradient(#b8b9d2, #d8dbff);
 }
 
+.cert-container{
+  display: flex;
+  align-items: center;
+}
+
+.cert-container img{
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.cert-text {
+  font-size: 18px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
 .container p {
   max-width: 350px;
   word-wrap: break-word;
@@ -24,6 +45,23 @@ body {
   margin-bottom: 150px;
   margin-top: 100px;
   text-align: center;
+}
+
+#experience h1 {
+  font-size: 42px;
+}
+
+#experience h4 {
+  font-size: 28px;
+}
+
+.fading-line {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, transparent, black, transparent);
+  border: none;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 #header-box {
@@ -42,22 +80,12 @@ font-size: 28px;
   max-width: 50%;
 }
 
-.project {
-  text-align: center;
-  position: relative;
-  width: 275px;
-  height: 200px;
-  border: 3px solid black;
-  border-radius: 25px;
-  margin-right: 100px;
-  }
-
-.section-header {
-  font-size: 56px;
+#headshot {
+  border-radius: 75px;
 }
 
-.project-header {
-  font-size: 48px;
+hr {
+  border: 1px solid black;
 }
 
 .icon {
@@ -72,72 +100,43 @@ font-size: 28px;
   cursor: pointer;
 }
 
-hr {
-  border: 1px solid black;
-}
-
-#contact {
-  display: flex;
-  justify-content: center;
-  gap: 35px;
-  
-}
-
-.vertical-line {
-  margin-top: 20px;
-  border-left: 2px solid rgb(53, 53, 53);
-  height: 35px; 
-}
-
-.fading-line {
-  height: 2px;
-  width: 100%;
-  background: linear-gradient(to right, transparent, black, transparent);
-  border: none;
-  margin-top: 35px;
-  margin-bottom: 35px;
-}
-
 #kmeans {
   border: 1px solid black;
+}
+
+li {
+  font-size: 35;
+  margin-bottom: 20px;
+}
+
+.project {
+  text-align: center;
+  position: relative;
+  width: 275px;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin-right: 100px;
+}
+
+.project-header {
+  font-size: 48px;
 }
 
 section {
   margin-bottom: 100px;
 }
 
-#headshot {
-  border-radius: 75px;
-}
-
-.cert-container{
-  display: flex;
-  align-items: center;
-}
-
-.cert-text {
-  font-size: 18px;
-}
-
-.cert-container img{
-  width: 75px;
-  height: 75px;
-  margin-right: 10px;
-}
-
-#experience h1 {
-  font-size: 42px;
-}
-
-#experience h4 {
-  font-size: 28px;
+.section-header {
+  font-size: 56px;
 }
 
 ul {
   margin-bottom: 100px;
 }
 
-li {
-  font-size: 35;
-  margin-bottom: 20px;
+.vertical-line {
+  margin-top: 20px;
+  border-left: 2px solid rgb(53, 53, 53);
+  height: 35px; 
 }
