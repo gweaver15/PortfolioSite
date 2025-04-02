@@ -11,6 +11,17 @@
   font-size: large;
 }
 
+button {
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   background: #f1f1f1;
   font-family: "Montserrat", sans-serif;
@@ -69,16 +80,35 @@ body {
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #2C3930;
   color: white;
 }
 
+.dark-mode .project {
+  border-color: white;
+}
+
+.dark-mode .fading-line {
+  background: linear-gradient(to right, transparent, white, transparent);
+}
+
+.dark-mode hr {
+  border-color: white;
+}
+.dark-mode .navbar {
+  border-bottom: white;
+  background-color: #2C3930;
+}
+
 #experience h1 {
-  font-size: 42px;
+  font-size: 30px;
 }
 
 #experience h4 {
-  font-size: 28px;
+  font-size: 18px;
+}
+#experience li {
+  font-size: 18px;
 }
 
 header {
@@ -106,7 +136,7 @@ header {
 #headshot {
   border-radius: 32px;
   height: auto;
-  width: 300px; /* Ensures image doesn't get too large */
+  width: 300px;
 }
 
 hr {
@@ -141,6 +171,7 @@ li {
   top: 0;
   width: 100%;
   z-index: 1000;
+  background-color: #f1f1f1;
 }
 
 .navbar ul {
