@@ -68,12 +68,22 @@ body {
   text-align: center;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 #experience h1 {
   font-size: 42px;
 }
 
 #experience h4 {
   font-size: 28px;
+}
+
+header {
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 #header-box {
@@ -94,9 +104,9 @@ body {
 }
 
 #headshot {
-  border-radius: 75px;
+  border-radius: 32px;
   height: auto;
-  width: 150px; /* Ensures image doesn't get too large */
+  width: 300px; /* Ensures image doesn't get too large */
 }
 
 hr {
