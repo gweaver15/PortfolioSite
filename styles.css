@@ -136,7 +136,8 @@ header {
 #headshot {
   border-radius: 32px;
   height: auto;
-  width: 300px;
+  width: 350px;
+  margin-right: 50px;
 }
 
 hr {
