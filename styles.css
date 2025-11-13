@@ -81,7 +81,7 @@ body {
 }
 
 .dark-mode {
-  background-color: #2C3930;
+  background-color: #3e3e42;
   color: white;
 }
 
@@ -98,7 +98,14 @@ body {
 }
 .dark-mode .navbar {
   border-bottom: white;
-  background-color: #2C3930;
+  background-color: #2d2d30;
+}
+
+.dark-mode .project {
+  background-color: #2d2d30;
+}
+.dark-mode a {
+  color: #81d4fa;
 }
 
 #experience h1 {
@@ -152,10 +159,10 @@ hr {
   cursor: pointer;
   height: auto;
   left: 50%;
-  max-width: 300px;
+  height: 35px;
   position: absolute;
   transform: translateX(-50%);
-  width: 20%;
+  background-color: #f1f1f1;
 }
 
 #kmeans {
@@ -213,6 +220,7 @@ li {
 
 .project-header {
   font-size: 32px;
+  padding-bottom: 8px;
 }
 
 .section-header {
